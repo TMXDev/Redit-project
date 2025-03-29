@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Login</title>
+</head>
+<body>
+    <h1>Log in to API Services</h1>
+    <form action="/login" method="POST">
+        <label for="reddit_api_key">Reddit API Key:</label>
+        <input type="text" name="reddit_api_key" required>
+        <label for="openai_api_key">OpenAI API Key:</label>
+        <input type="text" name="openai_api_key" required>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
